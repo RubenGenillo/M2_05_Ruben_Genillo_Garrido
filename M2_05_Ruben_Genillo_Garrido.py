@@ -34,7 +34,7 @@ def creatlist(texto,num):
         lista.append(num2)
     return lista    
 
-#Creo una función que compruebe si lso números de una lista van en orden ascendente
+#Creo una función que compruebe si los números de una lista van en orden ascendente
 def listOrdenAsc(lista):
  for i in range(len(lista)-1):
     if lista[i+1]<lista[i]:
